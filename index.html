@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test MOSS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<ec>
+<body>
+    <div id="container">
+        <header>
+            <h1>APP Quiz</h1>
+            <p>Para cada uno de los problemas siguientes, se sugieren cuatro respuestas, correctas; marque, 
+                LA LETRA en el espacio que corresponda a la opción que usted considere más acertada.
+                <br>
+                Duración:
+                
+                Aproximadamente 20 a 30 minutos.</p>
+        </header>
+        <section>
     <div id="resultado"></div>
     <form name="quizForm" onsubmit="return verificarRespuestas()">
 
@@ -202,7 +213,8 @@
             <input type="radio" name="p30" value="b">b) Tratar de convencerlos de todas sus ideas<br/>
             <input type="radio" name="p30" value="c">c) Ceder parcialmente en todas las cuestiones importantes. <br/>
             <input type="radio" name="p30" value="d">d) Abogar por muchas reformas<br/>
-
+            
+            <br>
             <input type="submit" value="Enviar">
             </form>
         </section>
